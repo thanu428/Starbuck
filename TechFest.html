@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>TechFest 2025 -Anil Neerukonda Institute of Technology and Sciences</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            
+        }
+        header {
+            background: #2a3d66;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 40px;
+        }
+        header p {
+            font-size: 18px;
+        }
+        section {
+            padding: 40px;
+            margin: 20px;
+        }
+        .about, .schedule, .speakers, .register {
+            background: #fff;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-bottom: 40px;
+            border-radius: 8px;
+            padding: 20px;
+        }
+        
+        .about p, .schedule ul, .speakers ul {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        
+        .register-form {
+            background: #2a3d66;
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .register-form input {
+            padding: 10px;
+            margin: 10px 0;
+            width: 100%;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .register-form button {
+            background: red;
+            color: white;
+            padding: 15px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+        .register-form button:hover {
+            background:blue;
+        }
+        footer {
+            background: #2a3d66;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+        
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="C:\Users\RAMPRASADMATSA\Downloads\anits.jpg" alt=Anil Neerukonda Institute Logo" class="institute-logo">
+    <h1>TechFest 2025</h1>
+    <p>Hosted by Anil Neerukonda Institute of Technology and Sciences</p>
+</header>
+
+<section class="about">
+    <h2>About TechFest 2025</h2>
+    <img src="https://via.placeholder.com/1200x500" alt="TechFest Image" />
+    <p>TechFest 2025 is a celebration of technology and innovation. Join us for two days of workshops, keynote speakers, coding challenges, and networking opportunities. Whether you're a student, developer, or tech enthusiast, there's something for everyone!</p>
+</section>
+
+<section class="schedule">
+    <h2>Event Schedule</h2>
+    <ul>
+        <li><strong>Day 1:</strong> Workshops on AI, Web Development, and Data Science</li>
+<image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRttYSsvr5w4ZaymZc8FC36DEAFG6VlOFTL2g&s"></image>
+        <li><strong>Day 2:</strong> Tech Talks, Panel Discussions, and Coding Competitions</li>
+        <li><strong>Time:</strong> 9 AM - 6 PM</li>
+    </ul>
+</section>
+
+<section class="speakers">
+    <h2>Featured Speakers</h2>
+
+    <ul>
+        <li><strong>Dr. K Selvani Deepthi:</strong> Professor & HOD - AI & Machine Learning</li>
+<image src="C:\Users\RAMPRASADMATSA\Downloads\hod.png" heigth=50 width=100></image>
+</ul>
+
+<ul>
+        <li><strong>Mrs B Siva Jyothi:</strong>Assistant Professor - Web Development</li>
+<image src="C:\Users\RAMPRASADMATSA\Downloads\2.png" heigth=50 width=100></image>
+</ul>
+<ul>       
+ <li><strong>Mr. S Ratan Kumar:</strong> Associate Professor-Machine Learning</li>
+<image src="C:\Users\RAMPRASADMATSA\Downloads\1.png" heigth=50 width=100></image>
+</ul>
+</section>
+
+<section class="register">
+    <h2>Register Now</h2>
+    <div class="register-form">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <input type="text" id="phone" placeholder="Your Phone Number" required>
+        <button onclick="registerUser()">Register</button>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 TechFest - Anil Neerukonda Institute of Technology and Sciences. All rights reserved. <br><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+</footer>
+
+<script>
+    function registerUser() {
+        const name = document.getElementById('name').value;
+        const email = document.getElementById('email').value;
+        const phone = document.getElementById('phone').value;
+
+        if(name && email && phone) {
+            alert(`Thank you for registering, ${name}!`);
+            // Here, you could also send the registration data to a server
+        } else {
+            alert('Please fill out all fields.');
+        }
+    }
+</script>
+
+</body>
+</html>
